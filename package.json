@@ -1,0 +1,32 @@
+{
+	"name": "pandaui-vue-plus",
+	"version": "1.0.0",
+	"description": "A simple Vue3 + Typescript components library",
+	"main": "index.js",
+	"scripts": {
+		"dev": "pnpm -C examples dev",
+		"test:comp": "pnpm -C packages/components test",
+		"test:single": "cross-env COMP_NAME=$1 pnpm -C packages/components test:single"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.2.3",
+		"@vue/test-utils": "^2.4.6",
+		"cross-env": "^7.0.3",
+		"eslint": "^9.25.1",
+		"jsdom": "^26.1.0",
+		"prettier": "3.5.3",
+		"sass": "^1.87.0",
+		"sass-loader": "^16.0.5",
+		"typescript": "^5.8.3",
+		"vitest": "^3.1.2"
+	},
+	"dependencies": {
+		"@pandaui-vue-plus/components": "workspace:^",
+		"@pandaui-vue-plus/theme-chalk": "workspace:^",
+		"@pandaui-vue-plus/utils": "workspace:^",
+		"vue": "^3.5.13"
+	}
+}

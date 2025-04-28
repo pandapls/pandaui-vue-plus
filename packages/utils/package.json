@@ -1,0 +1,11 @@
+{
+	"name": "@pandaui-vue-plus/utils",
+	"version": "1.0.0",
+	"description": "this is utils for pandaui-vue-plus",
+	"main": "index.ts",
+	"types": "index.d.ts",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

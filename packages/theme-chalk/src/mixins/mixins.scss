@@ -1,0 +1,4 @@
+// 将所引入的文件中的变量，函数，混入等导入到当前scss文件中
+@use 'config' as *;
+// 将当前scss文件内容导出
+@forward 'config';

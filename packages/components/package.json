@@ -1,0 +1,18 @@
+{
+	"name": "@pandaui-vue-plus/components",
+	"version": "1.0.0",
+	"description": "Vue 3 UI Components Library",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "vitest run",
+		"test:single": "vitest run --dir $COMP_NAME"
+	},
+	"keywords": [
+		"vue",
+		"ui",
+		"components"
+	],
+	"author": "",
+	"license": "ISC"
+}
