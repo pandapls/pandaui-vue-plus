@@ -8,6 +8,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterLink to="/">Button</RouterLink>
     <RouterLink to="/card">Card</RouterLink>
     <RouterLink to="/dialog">Dialog</RouterLink>
+    <RouterLink to="/pagination">Pagination</RouterLink>
+
   </nav>
 
   <div class="displayArea">

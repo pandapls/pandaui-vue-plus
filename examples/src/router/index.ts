@@ -19,6 +19,11 @@ const router = createRouter({
       name: 'dialog',
       component: () => import('../views/DialogView.vue'),
     },
+    {
+      path: '/pagination',
+      name: 'pagination',
+      component: () => import('../views/PaginationView.vue'),
+    },
   ],
 })
 
