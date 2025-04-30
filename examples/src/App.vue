@@ -7,6 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <nav class="nav">
     <RouterLink to="/">Button</RouterLink>
     <RouterLink to="/card">Card</RouterLink>
+    <RouterLink to="/dialog">Dialog</RouterLink>
   </nav>
 
   <div class="displayArea">

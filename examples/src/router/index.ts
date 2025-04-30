@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'card',
       component: () => import('../views/CardView.vue'),
     },
+    {
+      path: '/dialog',
+      name: 'dialog',
+      component: () => import('../views/DialogView.vue'),
+    },
   ],
 })
 
