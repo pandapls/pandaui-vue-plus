@@ -1,6 +1,6 @@
 {
 	"name": "pandaui-vue-plus",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple Vue3 + Typescript components library",
 	"main": "index.js",
 	"type": "module",
