@@ -10,7 +10,11 @@
 		"test:single": "cross-env COMP_NAME=$1 pnpm -C packages/components test:single",
 		"build": "rollup -c && node generate-types.cjs"
 	},
-	"keywords": [],
+	"keywords": [
+		"vue",
+		"ui",
+		"components"
+	],
 	"author": "",
 	"license": "ISC",
 	"files": [
