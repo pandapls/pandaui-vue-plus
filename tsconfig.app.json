@@ -3,9 +3,10 @@
 	"include": [
 		"packages/components/**/*.ts",
 		"packages/components/**/*.vue",
-		"packages/utils/**/*.ts"
+		"packages/utils/**/*.ts",
+		"vue-shim.d.ts"
 	],
-	"exclude": ["src/**/__tests__/*"],
+	"exclude": ["packages/components/**/test/**"],
 	"compilerOptions": {
 		"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
 		"composite": true,
@@ -14,6 +15,9 @@
 			"@/*": ["./src/*"],
 			"@pandaui-vue-plus/*": ["./packages/*"]
 		},
-		"types": ["node"]
+		"types": ["node"],
+		"declaration": true,
+		"emitDeclarationOnly": false,
+		"allowImportingTsExtensions": false
 	}
 }

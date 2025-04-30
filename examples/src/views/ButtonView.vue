@@ -42,7 +42,7 @@
       <panda-button disabled type="warning">warning 按钮</panda-button>
     </div>
     <div class="row">
-      <panda-button icon="milk-tea" />
+      <panda-button icon="milk-tea"/>
       <panda-button icon="camera" type="primary">照相机</panda-button>
       <panda-button icon="wind-power" circle type="success"></panda-button>
       <panda-button icon="orange" type="info"></panda-button>

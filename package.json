@@ -3,21 +3,34 @@
 	"version": "1.0.0",
 	"description": "A simple Vue3 + Typescript components library",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"dev": "pnpm -C examples dev",
 		"test:comp": "pnpm -C packages/components test",
-		"test:single": "cross-env COMP_NAME=$1 pnpm -C packages/components test:single"
+		"test:single": "cross-env COMP_NAME=$1 pnpm -C packages/components test:single",
+		"build": "rollup -c && node generate-types.cjs"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"files": [
+		"/dist",
+		"LICENSE"
+	],
 	"devDependencies": {
+		"@rollup/plugin-terser": "^0.4.4",
 		"@vitejs/plugin-vue": "^5.2.3",
 		"@vue/test-utils": "^2.4.6",
 		"cross-env": "^7.0.3",
 		"eslint": "^9.25.1",
 		"jsdom": "^26.1.0",
 		"prettier": "3.5.3",
+		"rollup": "^4.40.1",
+		"rollup-plugin-copy": "^3.5.0",
+		"rollup-plugin-delete": "^3.0.1",
+		"rollup-plugin-postcss": "^4.0.2",
+		"rollup-plugin-typescript2": "^0.36.0",
+		"rollup-plugin-vue": "^6.0.0",
 		"sass": "^1.87.0",
 		"sass-loader": "^16.0.5",
 		"typescript": "^5.8.3",
